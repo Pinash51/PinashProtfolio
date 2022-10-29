@@ -1,0 +1,189 @@
+body {
+  background-color: #31333b;
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  padding: 0em 2em 0em 2em;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.header .header-logo {
+  height: 100%;
+  padding: 1em 3em;
+}
+.header .header-logo img {
+  width: 3em;
+  height: 3em;
+  left: 0px;
+}
+.header .header-nav {
+  padding: 1em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 1em;
+}
+.header .header-nav ul {
+  width: 100%;
+  list-style: none;
+}
+.header .header-nav ul li {
+  display: inline-flex;
+  padding-left: 10px;
+}
+.header .header-nav ul li a {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-size: 0.8em;
+}
+.header .header-search {
+  padding: 2em 3em;
+  height: 100%;
+}
+.header .header-search .search {
+  display: inline-flex;
+  padding: 3px;
+  background-color: #3d3e42;
+  border-radius: 5px;
+}
+.header .header-search .search input {
+  width: 80px;
+  background-color: #3d3e42;
+  border: none;
+}
+.header .header-search .search i {
+  cursor: pointer;
+}
+
+.about {
+  width: 100%;
+}
+.about .about-im {
+  height: 620px;
+  display: flex;
+  justify-content: space-between;
+}
+.about .about-im img {
+  display: block;
+  position: absolute;
+  right: 0px;
+  height: inherit;
+  z-index: -99999;
+}
+.about .about-im .im {
+  display: inline;
+  margin: 3em 3em;
+  width: 16em;
+  background-color: rgba(209, 210, 218, 0.1843137255);
+}
+.about .about-im .im p {
+  color: white;
+  padding: 1em 1em 1em 1em;
+}
+.about .about-im .im p span {
+  font-size: 2em;
+  color: #4edfdf;
+}
+.about .about-im .im a {
+  margin-left: 1rem;
+  text-decoration: none;
+  border: 2px solid #4edfdf;
+  color: #4edfdf;
+  border-radius: 5px;
+  padding: 0.4em;
+}
+.about .about-im .socialLink {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0em 3em 0em 0em;
+}
+.about .about-im .socialLink ul {
+  list-style: none;
+}
+.about .about-im .socialLink ul li {
+  display: flex;
+  padding-top: 8px;
+  justify-content: center;
+}
+.about .about-im .socialLink ul li .line {
+  width: 2px;
+  height: 50px;
+  background-color: #4edfdf;
+}
+.about .about-im .socialLink ul li a {
+  color: white;
+}
+.about .about-body {
+  padding: 1em 3em;
+  height: 10em;
+}
+.about .about-body h2 {
+  color: white;
+  padding: 0em;
+}
+.about .about-body .body-im {
+  display: inline-flex;
+}
+.about .about-body .body-im .line {
+  margin-top: 10px;
+  height: 2px;
+  width: 100px;
+  background-color: #4edfdf;
+}
+.about .about-body .body-im .im {
+  padding: 0em 0em 0em 2em;
+  color: #acabab;
+}
+.about .about-body .body-im .im p {
+  margin: 0px;
+}
+
+.mySkills {
+  width: 100%;
+}
+.mySkills .mySkills-header {
+  text-align: center;
+  color: white;
+}
+.mySkills ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mySkills ul li {
+  margin: 1em;
+  padding: 30px 20px 0px 20px;
+  text-align: center;
+  background-color: #6b6b6b;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mySkills ul li i {
+  color: #4edfdf;
+  font-size: 3em;
+}
+.mySkills ul li h6 {
+  color: white;
+  font-size: 1.2em;
+  margin: 20px;
+}
+.mySkills ul li:hover {
+  background-color: #4edfdf;
+}
+.mySkills ul li:hover i {
+  color: #3d3e42;
+  font-size: 3em;
+}
+.mySkills ul li:hover h6 {
+  color: #3d3e42;
+}/*# sourceMappingURL=main.css.map */
