@@ -186,4 +186,54 @@ body {
 }
 .mySkills ul li:hover h6 {
   color: #3d3e42;
+}
+
+.protfolio {
+  width: 100%;
+}
+.protfolio .protfolio-header {
+  text-align: center;
+  color: white;
+}
+.protfolio ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.protfolio ul li {
+  width: 20em;
+  height: 15em;
+  margin: 10px;
+}
+.protfolio ul li img {
+  z-index: -99999;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.protfolio ul li .details {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4431372549);
+}
+.protfolio ul li .details h2 {
+  margin: 0px;
+  padding-top: 30px;
+  color: rgba(78, 223, 223, 0.8705882353);
+}
+.protfolio ul li .details p {
+  color: rgba(255, 255, 255, 0.884);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.protfolio ul li .details a {
+  text-decoration: none;
+  background-color: rgba(78, 223, 223, 0.8705882353);
+  padding: 5px;
+  font-size: 0.7em;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
