@@ -124,7 +124,7 @@ body {
     }
     .about-body {
         padding: 1em 3em;
-        height: 10em;
+        height: 100%;
         h2 {
             color: white;
             padding: 0em;
@@ -192,7 +192,7 @@ body {
 
 
 .protfolio {
-    width: 100%;
+    text-align: center;
     .protfolio-header {
         text-align: center;
         color: white;
@@ -232,10 +232,77 @@ body {
                 a {
                     text-decoration: none;
                     background-color: #4edfdfde;
+                    color: #3d3e42;
                     padding: 5px;
                     font-size: .7em;
                     border-radius: 10px;
-
+                }
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        padding: 10px;
+        background-color: #4edfdfde;
+        color: #3d3e42;
+        border-radius: 5px;
+    }
+}
+.experiene {
+    width: 100%;
+    text-align: justify;
+    .experiene-header {
+        color: white;
+    }
+    ul {
+        list-style: none;
+        width:auto;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        .noti {
+            width: 100%;
+            display: inline-flex;
+            margin-top: 20px;
+            .year{
+                display: inline-flex;
+                h5{
+                    height: fit-content;
+                    margin: 0px;
+                    padding: 5px;
+                    background-color: #3d3e42;
+                }
+                div{
+                    height: fit-content;
+                    border-left: 20px solid #3d3e42;
+                    border-bottom: 13px solid transparent;
+                    border-top: 12px solid transparent;
+                }
+            }
+            .noti-header{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 30px;
+                }
+                div{
+                    width: 2px;
+                    height: 83%;
+                    background-color: #4edfdf;
+                }
+            }
+            .details{
+                h2{
+                    margin-top: 0px;
+                    margin-bottom: 8px;
+                }
+                h4{
+                    margin-top: 0px;
+                    margin-bottom: 8px;
+                }
+                p{
+                    margin: 0px;
                 }
             }
         }
