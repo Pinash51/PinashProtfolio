@@ -8,6 +8,10 @@ body {
   padding: 0em 2em 0em 2em;
 }
 
+section {
+  margin: 20px 20px 20px 20px;
+}
+
 .header {
   width: 100%;
   height: 60px;
@@ -123,7 +127,6 @@ body {
   color: white;
 }
 .about .about-body {
-  padding: 1em 3em;
   height: 100%;
 }
 .about .about-body h2 {
@@ -162,7 +165,9 @@ body {
 }
 .mySkills ul li {
   margin: 1em;
-  padding: 30px 20px 0px 20px;
+  width: 120px;
+  height: 100px;
+  padding: 10px 2px 2px 2px;
   text-align: center;
   background-color: #6b6b6b;
   border-radius: 10px;
@@ -174,7 +179,7 @@ body {
 }
 .mySkills ul li h6 {
   color: white;
-  font-size: 1.2em;
+  font-size: inherit;
   margin: 20px;
 }
 .mySkills ul li:hover {
@@ -246,29 +251,43 @@ body {
   border-radius: 5px;
 }
 
-.experiene {
+.experience {
   width: 100%;
-  text-align: justify;
 }
-.experiene .experiene-header {
+.experience .experience-header {
   color: white;
 }
-.experiene ul {
+.experience .experience-header h2 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.experience .experience-Details {
+  display: inline-flex;
+}
+.experience .experience-Details .experience-left {
+  height: 100%;
+  width: 50em;
+}
+.experience .experience-Details .experience-List {
+  text-align: justify;
+}
+.experience .experience-Details .experience-List ul {
+  margin: 0px;
   list-style: none;
   width: auto;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
 }
-.experiene ul .noti {
+.experience .experience-Details .experience-List ul .noti {
   width: 100%;
   display: inline-flex;
   margin-top: 20px;
 }
-.experiene ul .noti .year {
+.experience .experience-Details .experience-List ul .noti .year {
   display: inline-flex;
 }
-.experiene ul .noti .year h5 {
+.experience .experience-Details .experience-List ul .noti .year h5 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -276,7 +295,7 @@ body {
   padding: 5px;
   background-color: #3d3e42;
 }
-.experiene ul .noti .year div {
+.experience .experience-Details .experience-List ul .noti .year div {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -284,27 +303,27 @@ body {
   border-bottom: 13px solid transparent;
   border-top: 12px solid transparent;
 }
-.experiene ul .noti .noti-header {
+.experience .experience-Details .experience-List ul .noti .noti-header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.experiene ul .noti .noti-header img {
+.experience .experience-Details .experience-List ul .noti .noti-header img {
   width: 30px;
 }
-.experiene ul .noti .noti-header div {
+.experience .experience-Details .experience-List ul .noti .noti-header div {
   width: 2px;
   height: 83%;
   background-color: #4edfdf;
 }
-.experiene ul .noti .details h2 {
+.experience .experience-Details .experience-List ul .noti .details h2 {
   margin-top: 0px;
   margin-bottom: 8px;
 }
-.experiene ul .noti .details h4 {
+.experience .experience-Details .experience-List ul .noti .details h4 {
   margin-top: 0px;
   margin-bottom: 8px;
 }
-.experiene ul .noti .details p {
+.experience .experience-Details .experience-List ul .noti .details p {
   margin: 0px;
 }/*# sourceMappingURL=main.css.map */
